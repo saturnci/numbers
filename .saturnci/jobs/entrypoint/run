@@ -27,9 +27,9 @@ def run(io, error_io, github_event, client)
   io.puts "Author name: #{author_name}"
 
   test_suite_run = SaturnCI::TestSuiteRun.create(
-    task_adapter_name: "minitest",
     client: client,
     repository: "saturnci/numbers",
+    task_adapter_name: "minitest",
     branch_name: branch_name,
     commit_hash: commit_hash,
     commit_message: commit_message,
