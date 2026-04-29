@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/saturnci/saturnci-sdk.git
-  revision: 63742c59e7738aa6286836a397fad5d6f8729701
-  ref: 63742c5
+  revision: 9bc923338b20f1e801e8ed5b9a4dbf29b3bddfb7
+  ref: 9bc9233
   specs:
     saturnci-sdk (0.3.0)
 
