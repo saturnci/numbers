@@ -11,7 +11,6 @@ def run(io, error_io, github_event, client)
     error_io.puts "BRANCH_NAME env var is required"
     return 1
   end
-
   commit_hash = ENV["COMMIT_HASH"]
   if commit_hash.to_s.empty?
     error_io.puts "COMMIT_HASH env var is required"
