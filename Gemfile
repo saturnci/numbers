@@ -4,4 +4,4 @@ source "https://rubygems.org"
 
 gem "minitest"
 gem "rake"
-gem "saturnci-sdk", git: "https://github.com/saturnci/saturnci-sdk.git", ref: "bd8e55c"
+gem "saturnci-sdk", git: "https://github.com/saturnci/saturnci-sdk.git", ref: "63742c5"
